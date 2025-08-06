@@ -1,7 +1,30 @@
 body{ 
-    background-color: aquamarine;
+   background-color: aqua;
     font-family: Bai jamjuree;
 }
+
+# container{
+display: flex;
+}
+
+.cartão{
+    margin: 1rem 1rem;
+    background-color: darkgreen;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartão__conteúdo{
+    text-align: center;
+   background-color: lime;
+   height: 100%;
+}
+
+
+
+
+
 
 footer{
     background-color: black;
