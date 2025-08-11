@@ -1,5 +1,12 @@
+:root {
+    --text-color: #000408;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
+
 body{ 
-   background-color: aqua;
+  background: url("img.biologia.png");
     font-family: Bai jamjuree;
 }
 
